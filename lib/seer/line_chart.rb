@@ -106,7 +106,6 @@ module Seer
     def to_js  #:nodoc:
 
       %{
-        <script type="text/javascript">
           google.load('visualization', '1', {'packages':['linechart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
@@ -119,7 +118,6 @@ module Seer
             var chart = new google.visualization.LineChart(container);
             chart.draw(data, options);
           }
-        </script>
       }
     end
       

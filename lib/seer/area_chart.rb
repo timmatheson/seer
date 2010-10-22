@@ -104,7 +104,6 @@ module Seer
     def to_js #:nodoc:
 
       %{
-        <script type="text/javascript">
           google.load('visualization', '1', {'packages':['areachart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
@@ -117,7 +116,6 @@ module Seer
             var chart = new google.visualization.AreaChart(container);
             chart.draw(data, options);
           }
-        </script>
       }
     end
       

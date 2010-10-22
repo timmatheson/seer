@@ -91,7 +91,6 @@ module Seer
     def to_js #:nodoc:
 
       %{
-        <script type="text/javascript">
           google.load('visualization', '1', {'packages':['barchart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
@@ -104,7 +103,6 @@ module Seer
             var chart = new google.visualization.BarChart(container);
             chart.draw(data, options);
           }
-        </script>
       }
     end
       
