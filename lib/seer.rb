@@ -22,10 +22,8 @@ module Seer
 
   def self.init_visualization
     %{
-    <script type="text/javascript">
-      var jsapi = (("https:" == document.location.protocol) ? "https://" : "http://");
-      document.write(unescape("%3Cscript src='" + jsapi + "www.google.com/jsapi' type='text/javascript'%3E%3C/script%3E"));
-    </script>
+    var jsapi = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cscript src='" + jsapi + "www.google.com/jsapi' type='text/javascript'%3E%3C/script%3E"));
     }
   end
   
