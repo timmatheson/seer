@@ -15,6 +15,7 @@ begin
        "CONTRIBUTORS",
        "init.rb",
        "lib/seer.rb",
+       "lib/seer/annotated_timeline.rb",
        "lib/seer/area_chart.rb",
        "lib/seer/bar_chart.rb",
        "lib/seer/chart.rb",
